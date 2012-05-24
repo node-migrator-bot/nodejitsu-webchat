@@ -1,0 +1,17 @@
+body {
+  background-color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+  outline: none !important;
+  text-decoration: none;
+  color: #426B92;
+}

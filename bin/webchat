@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var httpServer = require('http-server'),
+    server = httpServer.createServer();
+
+var port = 10040,
+    host = '0.0.0.0';
+
+server.listen(port, host, function () {
+  console.log('Listening on http://%s:%d', host, port);
+});

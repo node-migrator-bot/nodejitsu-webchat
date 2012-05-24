@@ -1,0 +1,31 @@
+{
+  "name": "nodejitsu-webchat",
+  "subdomain": "webchat",
+  "version": "0.3.0",
+  "author": {
+    "name": "Nodejitsu",
+    "email": "support@nodejitsu.com"
+  },
+  "description": "A small static server with a customized embedded freenode irc webchat.",
+  "main": "./lib/webchat",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jesusabdullah/nodejitsu-webchat.git"
+  },
+  "scripts": {
+    "start": "node ./bin/webchat"
+  },
+  "dependencies": {
+    "http-server": "0.4.1"
+  },
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jesusabdullah/nodejitsu-webchat/raw/master/LICENSE"
+    }
+  ],
+  "analyze": false
+}
